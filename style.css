@@ -444,3 +444,84 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
+
+/* Account Page */
+
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff, #ffd6d6);
+    
+}
+.form-container{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.form-container span{
+    display: inline-block;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    font-weight: bold;
+    
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 80px;
+    transition: transform 1s;
+}
+.form-container input{
+    width: 100%;
+    line-height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+#login-form{
+    left:-300px;
+}
+#register-form{
+ left: 0;
+}
+
+#login-form a{
+    display: block;
+    font-size: 15px;
+    color: #ff523b;
+}
+#indicator{
+    width: 100px;
+    margin-top: 8px;
+    height: 4px;
+    background: #ff523b;
+    border: 1px solid #ff523b;
+    border-radius: 10px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+.form-container button{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.pending{
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+}
+.pending img{
+    width: 100%;
+    height: 100%;
+}
